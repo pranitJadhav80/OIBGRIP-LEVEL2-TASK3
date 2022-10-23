@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do App</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Aleo' rel='stylesheet'>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+<body>
+    <div class="container">
+        <h2 class="text-center">TO DO LIST</h2>
+        <div class="form-group">
+            <label >To Do Task :</label>
+            <input type="text" class="form-control" id="title"  aria-describedby="emailHelp" placeholder="Add Task in To Do list..">
+        <button   id="add" class="btn" onclick="add()">Add Task</button>        </div>
+
+        <div id="items" class="b box1">
+            <h1>Pending Tasks</h1>
+            <hr>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Task No.</th>
+                    <th scope="col">Task Title</th>
+                    <th scope="col"></th> 
+                  </tr>
+                </thead>
+                <tbody id="tableBody">
+                  <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td><button class="btn">Complete</button></td> 
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="items" class="b box2">
+            <h1>Completed Tasks</h1>
+            <hr>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Task No.</th>
+                    <th scope="col">Task Title</th>
+                    <th scope="col"></th> 
+                  </tr>
+                </thead>
+                <tbody id="tableBody2">
+                  <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td><button class="btn">Delete</button></td> 
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+     
+    </div>
+</body>
+</html>

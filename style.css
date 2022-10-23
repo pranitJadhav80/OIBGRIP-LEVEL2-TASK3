@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgb(186, 153, 239), rgb(246, 174, 233),rgb(140, 140, 240));
+}
+.container{
+    background-image: linear-gradient(to right,blue,violet,indigo,blue,indigo,violet,blue);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Aleo';
+    border: 5px solid rgb(171, 0, 145);
+    animation: mymove 3s infinite;
+    
+    
+}
+.text-center{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Aleo';
+}
+.form-group{
+    display:flex;
+    place-items: center;
+    font-size: 30px;
+    height: 80px;
+    padding: 50px;
+    font-family: 'Aleo';
+}
+
+.form-control{
+    height: 50px;
+    width: 500px;
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Aleo';
+    border-radius: 30px;
+    border: 3px solid rgb(118, 33, 255);
+    animation: mymove 2.5s infinite;
+    background-image: linear-gradient(to right, rgb(105, 163, 254),rgb(205, 141, 248), rgb(255, 255, 171), rgb(209, 149, 228),rgb(165, 176, 231));
+}
+.btn{
+    margin-left: 110px;
+     width: auto;
+    background-image: linear-gradient(to right, blue, rgb(0, 225, 225), blue );
+    border: 3px solid rgb(0, 26, 255);
+    height: 40px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 13px bold; 
+    border-radius: 25px;
+    padding: 10px;
+    font-family: 'Aleo';
+    animation: mymove 0.5s infinite;
+}
+.btn :hover{
+    background-color: black;
+    color: antiquewhite;
+
+}
+
+@keyframes mymove {
+  50% {border-color: lightblue;}
+}
+
+.b{
+    width: 650px;
+    padding: 15px;
+    position: absolute;
+    background-image: linear-gradient(to right, rgb(33, 1, 1), rgb(50, 43, 43), rgb(98, 80, 80),rgb(54, 41, 41),rgb(26, 13, 13));
+    text-align: center;
+    font-family: 'Aleo';
+    top: 37%;
+    border-radius: 60px;
+    opacity: 1;
+    
+}
+.box1{
+    left: 3%;
+    border: 3px solid #3500D3;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {border-color: lightblue;}
+}
+
+
+.box2{
+    right: 3%;
+    border: 3px solid #3500D3;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {border-color: lightblue;}
+}
+
+th{
+    padding: 18px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Aleo';
+}
+td{
+    text-align: left;
+    font-size: 28px;
+    font-family: 'Aleo';
+}
+
+table{
+    padding: 10px;
+}
+
+hr{
+   border: 1px solid #3500D3;
+   animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {border-color: lightblue;}
+
+
+}
